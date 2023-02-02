@@ -17,7 +17,7 @@ import org.bukkit.entity.Player;
 import org.bukkit.util.Vector;
 
 public class CIBCommon {
-	public static final String CIB_SIGN_STRING = "[CIB_MC]";
+	public static final String CIB_SIGN_STRING = "[右クリックで乗車]";
 	public static final String CIB_METADATA_TYPE = "CIB";
 	public static final String CIB_METADATA_STARTED = "CIBSTARTED";
 	public static final Vector VEC_STOP = new Vector(0,0,0);
@@ -30,11 +30,11 @@ public class CIBCommon {
 	public static final int TP_SEARCH_RADIUS_Y = 0;
 	public static final int TP_SEARCH_RADIUS_Z = 1;
 	
-	public static final String STR_NORTH = "NORTH";
-	public static final String STR_SOUTH = "SOUTH";
-	public static final String STR_EAST = "EAST";
-	public static final String STR_WEST = "WEST";
-	public static final String STR_TEREMINAL = "TERMINAL";
+	public static final String STR_NORTH = "北";
+	public static final String STR_SOUTH = "南";
+	public static final String STR_EAST = "東";
+	public static final String STR_WEST = "西";
+	public static final String STR_TEREMINAL = "終着駅";
 	
 	private CIBCommon(){
 		throw new AssertionError();
